@@ -84,7 +84,7 @@ void chushihua(){
 		if(i<10)cout<<" ";
 		cout<<i<<" |";
 		for(j=1;j<=Y;j++){
-			cout<<" ¨€";
+			cout<<" Â¨â‚¬";
 		}
 		cout<<endl;
 	}
@@ -120,7 +120,7 @@ void printScreen(int gameover){
 				if(MAP[i][j]==-1){cout<<"  ";continue;}
 				if(MAP[i][j]==-2){cout<<"X ";continue;}
 				if(MAP[i][j]<-2){cout<<MAP[i][j]+11<<" ";continue;}
-				cout<<"¨€";
+				cout<<"Â¨â‚¬";
 			}
 			cout<<endl;
 		}
@@ -136,7 +136,7 @@ void printScreen(int gameover){
 			cout<<" ";
 			if(MAP[i][j]==-1){cout<<"  ";continue;}
 			if(MAP[i][j]<-2){cout<<MAP[i][j]+11<<" ";continue;}
-			cout<<"¨€";
+			cout<<"Â¨â‚¬";
 		}
 		cout<<endl;
 	}
@@ -173,9 +173,9 @@ int main(){
 	int temp;
 	int step;
 	cout<<"Plase input the size of gameboard."<<endl;
-	cout<<"length:(¡Ý1£¬¡Ü99)";
+	cout<<"length:(Â¡Ã1Â£Â¬Â¡Ãœ99)";
 	cin>>X;
-	cout<<"width:£¨¡Ý1£¬¡Ü99)";
+	cout<<"width:Â£Â¨Â¡Ã1Â£Â¬Â¡Ãœ99)";
 	cin>>Y;
 	cout<<"Please input the number of boomer."<<endl;
 	cin>>BOOMER;
