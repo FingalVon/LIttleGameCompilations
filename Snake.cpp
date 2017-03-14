@@ -16,7 +16,7 @@ using namespace std;
 short SNAKE[2701];
 short FOOD;
 
-void gotoxy(int y, int x) //¶¨Î»µ½µÚxĞĞµÄµÚyÁĞ
+void gotoxy(int y, int x) //å®šä½åˆ°ç¬¬xè¡Œçš„ç¬¬yåˆ—
 {
 	int xx=0x0b;
 	HANDLE hOutput;
@@ -27,7 +27,7 @@ void gotoxy(int y, int x) //¶¨Î»µ½µÚxĞĞµÄµÚyÁĞ
 	SetConsoleCursorPosition(hOutput, loc);
 	return;
 }
-void newFood(){//Éú³ÉÒ»¸öĞÂÊ³Îï£¬×ø±ê´æ´¢ÓÚFOOD
+void newFood(){//ç”Ÿæˆä¸€ä¸ªæ–°é£Ÿç‰©ï¼Œåæ ‡å­˜å‚¨äºFOOD
 	short i;
 	short temp;
 	srand((int)time(0));
@@ -237,7 +237,7 @@ void printScreen(){
 	cout<<SNAKE[0]-4;
 	return ;
 }
-char chushihua(){//³õÊ¼»¯£¬·µ»ØÖµÎªÓÎÏ·ÄÑ¶È£¨e/E¼òµ¥£¬n/NÒ»°ã£¬h/HÀ§ÄÑ£©
+char chushihua(){//åˆå§‹åŒ–ï¼Œè¿”å›å€¼ä¸ºæ¸¸æˆéš¾åº¦ï¼ˆe/Eç®€å•ï¼Œn/Nä¸€èˆ¬ï¼Œh/Hå›°éš¾ï¼‰
 	char lv;
 	short i,j;
 
@@ -260,7 +260,7 @@ char chushihua(){//³õÊ¼»¯£¬·µ»ØÖµÎªÓÎÏ·ÄÑ¶È£¨e/E¼òµ¥£¬n/NÒ»°ã£¬h/HÀ§ÄÑ£©
 	cout<<"            *     *                       *           *           ****         *       *           "<<endl;
 	cout<<"          *         *                     *************         **    *         ********           "<<endl;
 	cout<<endl;
-	cout<<"                                                                                       °æ±¾£º1.0   "<<endl;
+	cout<<"                                                                                       ç‰ˆæœ¬ï¼š1.0   "<<endl;
 	cout<<endl;
 	cout<<"                                      ";
 	system("Pause");
