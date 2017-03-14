@@ -1,6 +1,6 @@
 # LIttleGameCompilations
 
-Language:C
+Language:C/C++
 
 
 Now,it include Snake and Minesweeper.
